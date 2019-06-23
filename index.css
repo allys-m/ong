@@ -1,0 +1,39 @@
+#bdy {
+  display: block;
+  background-image: url('../img/ecole.jpg');
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+.gg {
+  font-size: 40px;
+  color: red; border: solid 1px;
+  border-radius: 18%;
+}
+#tbl {
+  margin-top: 10%;
+}
+#van {
+  float: right; margin-top: -40%;
+  margin-right: 5%;
+  margin-bottom: 48%;
+}
+#van li {
+  overflow: hidden;
+  border: solid 2px;
+  background-color: yellow;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#van a {
+  text-decoration: none;
+  color: red;
+}
+#mForm {
+  background-color: red;
+}
+#mForm .bnm {
+  float: left;
+}
+#mForm .binp {
+  float: right;
+}
