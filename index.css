@@ -1,6 +1,6 @@
 #bdy {
   display: block;
-  background-image: url('../img/ecole.jpg');
+  background-image: url('ecole.jpg');
   background-repeat: no-repeat;
   margin: 0px;
 }
