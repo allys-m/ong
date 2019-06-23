@@ -19,6 +19,7 @@
   float: right; margin-top: -40%;
   margin-right: 5%;
   margin-bottom: 10%;
+  padding-left: 3%;
 }
 #van li {
   overflow: hidden;
@@ -27,8 +28,8 @@
 }
 #van a {
   text-decoration: none;
-  color: red; padding-left: 3%;
-  padding-right: 3%;
+  color: red;
+}
 #mForm {
   background-color: red;
   margin-top: 45%;
