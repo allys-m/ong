@@ -24,13 +24,11 @@
   overflow: hidden;
   border: solid 2px;
   background-color: yellow;
-  padding-left: 2%;
-  padding-right: 2%;
 }
 #van a {
   text-decoration: none;
-  color: red;
-}
+  color: red; padding-left: 3%;
+  padding-right: 3%;
 #mForm {
   background-color: red;
   margin-top: 45%;
