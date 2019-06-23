@@ -4,6 +4,9 @@
   background-repeat: no-repeat;
   margin: 0px;
 }
+#fld {
+ margin-top: 5%;
+}
 .gg {
   font-size: 40px;
   color: red; border: solid 1px;
@@ -30,7 +33,7 @@
 }
 #mForm {
   background-color: red;
-  margin-top: 25%;
+  margin-top: 35%;
 }
 #mForm .bnm {
   float: left;
