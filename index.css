@@ -13,9 +13,9 @@
   margin-top: 10%;
 }
 #van {
-  float: right; margin-top: -50%;
+  float: right; margin-top: 50%;
   margin-right: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 50%;
 }
 #van li {
   overflow: hidden;
