@@ -8,7 +8,7 @@ main.start = $(function(){
       nav  = $('#nav');
   
   fset.on('mouseover', function(){
-    nav.css({ 'fontSize': 15px });
+    nav.css({ 'fontSize': '15px' });
   });
   
   alert("Juste a test ");
