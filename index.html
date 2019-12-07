@@ -1,117 +1,67 @@
 <!doctype html>
 <html>
  <head>
- 	<title>GGSKA</title>
+ 	<title><%= title %></title>
  	<meta name="viewport" content="width=device-width, initial.scale=1.0 user-scalable=no">
- 	<link href="/views/public/pgs/favicon.ico' rel='shortcut icon' type='image/x-icon" />
- 	<link rel="stylesheet" type="text/css" href="index.css">
+ 	<link href="/public/views/public/pages/favicon.ico' rel='shortcut icon' type='image/x-icon" />
+ 	<link rel="stylesheet" type="text/css" href="/public/views/static/css/adza.css">
  	<script src="/socket.io/socket.io.js"></script>
- 	<script src="/jq/jquery.min.js">  </script>
- 	<script src="/views/js/home.query.js"></script>
- 	<script></script>
+ 	<script src="/public/jquery/jquery.min.js">  </script>
+ 	<script src="/public/views/static/js/m-jquery/adza.query.js"></script>
+ 	<!-- <script src="/views/static/js/page_info/pageinf.js"></script> -->
  	<style type="text/css">
  	</style>
  </head>
 
  <body id="bdy">
-   <!--first fieldset -->
-   <fieldset id="fld">
+ 	<h1 class="h1">HERZLICHE WILKOMMEN BEI DER <b class="nnm">  G.G.S.K.A  </b></h1>
+ 	<h2><strong class="ggskA">Glück-Gesundheit-Schule-für-Kinder-in-Afriker</strong></h2>
+ 	<fieldset id="fset">
+ 	 	<div id="nav">
+ 		<ul>
+ 			<li><a href="#">DEVELOPPEUR</a></li>
+ 			<li><a href="/contact">CONTACT</a></li>
+ 			<li><a href="#">PARTENAIRES</a></li>
+ 			<li><a href="#">PROJECTS</a></li>
+ 			<li><a href="#">NOUS-CONSERNANT</a></li>
+ 			<li><a href="/">ACCUEIL</a></li>
 
-     <legend class="gg">
-       G-G-S-K-A
-     </legend>
-  <table id="tbl">
-   <tr>
-     <th><i>G</i></th>
-     <td>lück</td>
-   </tr>
-   <tr>
-      <th><i>G</i></th>
-      <td>esundheit</td>
-   </tr>
-   <tr>
-     <th><i>S</i></th>
-     <td>chule für</td>
-   </tr>
-   <tr>
-     <th><i>K</i></th>
-     <td>inder in</td>
-   </tr>
-   <tr>
-     <th><i>A</i></th>
-     <td>friker</td>
-   </tr>
-  </table>
-           
-  
- 	<div id="van">
- 	 <ul>
- 	  <li>
- 	   <a href="#">Contact</a>
- 	  </li>
- 	  <li>
-  	   <a href="#">Partnerschaft</a>
- 	  </li>
- 	  <li>
- 	   <a href="#">Project</a>
- 	  </li>
- 	  <li>
- 	   <a href="#">Uber-uns</a>
- 	  </li>
- 	  <li>
- 	   <a href="#">ACCUEIL</a>
- 	  </li>
-
- 	 </ul>
+ 		</ul>
  	</div><br>
+ 	<div id="all">
+
+ 	<div id="container">
  	
-  <br>
-<!--fin fieldset -->
-<!--debut div form -->
-<div id="mForm">
-  <form>
-  <label class="bnm">
-   Benutzername
-  </label>
-  <input class="binp" type="text" /><br>
-  
-  <label class="bnm">
-   Passwort
-  </label>
-  <input class="binp"type="text" />
-  </form>
-  <br>
-  <button id="btn0">click</button>
-</div>
-<!--fin div form -->
- 	<br>
- 	<fieldset id="test">
- 	<p>
- 	  <b>
-Die GGSKA ist im Januar 2019 von verschiedenen Nationalitäten gegründete.
- Es ist eine Nichtregierungsorganisation mit Sitz in Wilhelmshaven.
-  usere Ziel ist ein Minimum an Hilfe für Jugendliche
- und arme Menschen in der Elfenbeinküste und anderen
- frankophonen Ländern Afrikas bereitzustellen. 
-mit partnerschaften und verantwortungsvollem handeln 
-Gerechte und positive Unterstützung für Veränderungen
-Die Organisation konzentriert sich auf die ersten Bedürfnisse von Kindern
-weniger als 10 Jahre alt.
- 	 </b>
- 	</p>
- 	</fieldset>
- 	</div><br>
-       <div id="mdiv"></div>
+ 		<div id="cont2">
+ 			<i class="indent">S'identifier</i><br>
+ 			<a class="newCmt" href="/inscription"><button>ADHERER-L'ORGANISATION</button></a><br>
+ 			<form id="myForm" method="post">
+ 				<b class="bN">Nom-utulisateur  <input class="bname" type="text" name="uName">
+
+ 				Mot-de-passe      <input class="bpass" type="password" name="uPass"><br>
+ 				<input id="button" type="submit" value="submit"></b><br>
+ 			</form><br>
+ 
+ 			<br>
+ 			<fieldset id="test">
+ 			<p>
+ 			   <b>
+ 			   	L'Afriesland Deutsch Zukunft für Alle est une [ Organisation Non Gouvernemental ] fonder en janvier 2019 dont le siege se trouve precisement a Wilhelmshaven en Allemagne.
+ 			   	Son but est d'apporter un minimal d'aide a la jeunesse et personne demunis en cote d'ivoire et d'autres pays d'afrique. Afin d'apporter un changement juste et positif a travers des partenariat et action responsable, L'ong se basent aux 1er besoin du cote des enfants ages de moins de 18 ans.
+ 			   </b>
+ 			</p>
+ 			</fieldset>
+ 		</div><br>
+ 		<div id="mdiv"></div>
  	</div>
  </div>
  <br><br>
  <fieldset>
  	<i>
- 	partie reserver a d'autre information dont nous sommes en reflexion collective 
+ 		partie reserver a d'autre information dont nous sommes en reflexion collective 
  	</i>
  </fieldset>
 
-
- </fieldset>
+</fieldset>
  </body>
 </html>
