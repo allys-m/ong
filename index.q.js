@@ -5,10 +5,9 @@ let main = {};
 
 main.start = $(function(){
   var fset = $('#fset'),
-      nav  = $('#nav');
+      nav  = $('#nav a');
   
   fset.on('mouseover', function(){
-    nav.css({ 'fontSize': '15px' });
   });
   
   alert("Juste a test ");
