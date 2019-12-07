@@ -1,3 +1,6 @@
+/* 
+@media only screen (oriantation: portrait) {
+  
 #bdy {
   display: block;
   background-image: url('ecole.jpg');
@@ -43,4 +46,6 @@
 }
 #btn0 {
   height: "15px";
+}
+
 }
