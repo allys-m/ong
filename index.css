@@ -1,6 +1,6 @@
 /* mobile screen Oriantation */ 
 
-@media only screen (oriantation: portrait) {
+@media only screen (orientation: portrait) {
   
 #bdy {
   display: block;
