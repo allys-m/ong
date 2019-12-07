@@ -1,50 +1,115 @@
+/* partie de modification en version PHONE */
+[id= "nav a" ]{
+	margin-left: 40%; margin-right: 40%;
+}
 #bdy {
-  display: block;
-  background-image: url('regard.jpg');
-  background-repeat: no-repeat;
-  margin: 0px;
+	display: block;
+	padding-top     :  0px;
+	margin-left     :  6%;
+	margin-right    :  6%;
+	background-color: black;
 }
-#fld {
- margin-top: 5%;
+/*
+@media only screen and (min-width: 768px){
+	#container { width: 100%; }
 }
-.gg {
-  font-size: 40px;
-  color: red; border: solid 1px;
-  border-radius: 18%;
+*/
+.nnm {
+	color: blue;
 }
-#tbl {
-  margin-top: 10%;
+#fset {
+	background-image: url("/public/new-tof-ong/regard.jpg");
+	background-position: top;
+	background-repeat: no-repeat; 
 }
-#van {
-  float: right; margin-top: -40%;
-  margin-right: 5%;
-  margin-bottom: 10%;
+#all {
+	padding-left: 4%; padding-right: 4%;
 }
-#van li {
-  overflow: hidden;
-  border: solid 2px;
-  background-color: yellow;
+#nav {
+	text-align: center; margin-top: 0px;
 }
-#van a {
-  text-decoration: none;
-  color: red; padding-left: 4%; 
-  padding-right: 4%;
+#nav ul {
+	margin-right: 17.5%;
 }
-#mForm {
-  background-color: red;
-  margin-top: 42%;
-  margin-bottom: 1%;
+#nav li{
+	float           : right;
+	overflow        : hidden;
+	border          : solid 2px;
+	border-radius   : 5px;
+	border-color    : red; 
+	padding         : 1%;
+	padding-left    : 1%;
+	padding-right   : 1%;
+	background-color: white;
 }
-#mForm .bnm {
-  float: left;
+#nav ul li a {
+	color: red; text-decoration: none;
 }
-#mForm .binp {
-  float: right;
+#nav ul li:hover {
+	border          : solid 2px;
+	border-radius   : 5px;
+	border-color    : red;
+	background-color: black;
+	color           : white;
 }
-#btn0 {
-  height: "15px";
+#nav ul li a:hover {
+	color: white; text-decoration: none; 
 }
-
-@media only screen and (orientation: portrait) {
-  
+#container {
+	border          :  solid 2px;
+	border-color    :  red;
+	margin-top     :  2.8%;
+    margin-left     :  5%;
+    margin-right    :  5%;
+	padding-bottom  : 1%;
+	background-position: top;
+}
+.h1 {
+	color             :         red;
+	border            :         solid 2px;
+	text-align        :         center;
+	margin-left       :         0px;
+	margin-right      :         0px;
+	margin-top        :         1%; 
+	margin-bottom     :         0%; 
+	background-color  :         none;
+	font-size         :         50px; 
+	min-height        :         60%;
+	min-width         :         40%;  
+}
+.ggskA {
+	font-size: 150%; color: green; margin-left: 15%; margin-top: 1%;
+}
+.indent {
+	float: right; margin-right: 2.5%; color: white; margin-top: 4.5%;
+}
+.newCmt button {
+	background-color: lightblue; margin-top: 2%; margin-bottom: -2.5%;
+}
+#cont2 {
+	margin-bottom: 1%;
+}
+#cont2 p { 
+    float: right; 
+	margin-top: 1%;
+}
+#myForm {
+	margin-top: 4%;
+}
+#myForm b {
+	float: right;
+	border: solid 1px; margin-bottom: 1%;
+}
+#test {
+	margin-top: 1%; padding-right: 25%;
+}
+#test p {
+	margin-right: -30%;
+}
+#test b {
+	color: red; text-align: center; background-color: none;
+}
+#cont2 .bN {
+	background-color: none;
+	color: white;
 }
