@@ -1,7 +1,3 @@
-/* mobile screen Oriantation */ 
-
-@media only screen (orientation: portrait) {
-  
 #bdy {
   display: block;
   background-image: url('ecole.jpg');
@@ -49,4 +45,3 @@
   height: "15px";
 }
 
-}
