@@ -1,3 +1,11 @@
+@media only screen and (orientation: portrait) 
+    and (max-width: 600px)
+{
+    background-color: cyan;
+}
+
+/*  *************************************************************************************************   */
+
 /* partie de modification en version PHONE */
 [id= "nav a" ]{
 	margin-left: 40%; margin-right: 40%;
