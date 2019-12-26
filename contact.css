@@ -20,7 +20,31 @@
 
     address b { margin-left: 4%; }
 }
+/*     ********************************************************************************************************************      */
 
+/* @media mobile configuration PORTRAIT */
+@media only screen and (orientation: landscape) 
+    and (max-width: 680px) {
+
+    .htitre { font-size: 12.5px; margin-left: 2px; }
+    #contact {
+		padding-top   : 3%; border          : solid 2px; margin-left: 3%;
+		padding-bottom: 3%;
+	    margin-right: 5%; background-color: cyan; font-size       : 12px;
+    }
+    .b0, .b00, .b1, .b2, .b3, .b4 {
+    	color: red;
+    }
+    .b0  { margin-left: 22%;  }
+    .b00 { margin-left: 18%;  }
+    .b1  { margin-left: 20%;  }
+    .b2  { margin-left: 24%;  }
+    .b3  { margin-left: 18%;  }
+    .b4  { margin-left: 28%; }
+
+    address b { margin-left: 4%; }
+}
+/*     ********************************************************************************************************************      */
 
 /* @media mobile configuration LANDSCAPE  */
 @media only screen and (orientation: landscape) 
