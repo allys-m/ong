@@ -1,6 +1,8 @@
+/*     ********************************************************************************************************************      */
+
 /* @media mobile configuration PORTRAIT */
 @media only screen and (orientation: portrait) 
-    and (max-width: 400px) {
+    and (max-width: 380px) {
 
     .htitre { font-size: 12.5px; margin-left: 2px; }
     #contact {
@@ -20,11 +22,13 @@
 
     address b { margin-left: 4%; }
 }
+/*     ********************************************************************************************************************      */
+/*###############################################################################################################################*/
 /*     ********************************************************************************************************************      */
 
 /* @media mobile configuration PORTRAIT */
 @media only screen and (orientation: landscape) 
-    and (max-width: 680px) {
+    and (max-width: 1280px) {
 
     .htitre { font-size: 12.5px; margin-left: 2px; }
     #contact {
@@ -45,35 +49,3 @@
     address b { margin-left: 4%; }
 }
 /*     ********************************************************************************************************************      */
-
-/* @media mobile configuration LANDSCAPE  */
-@media only screen and (orientation: landscape) 
-    and (max-width: 700px) {
-
-	#contact {
-		padding-top : 5%; padding-bottom: 5%;
-		border          : solid 2px; margin-left: 10%;
-	    margin-right: 10%; background-color: cyan; font-size       : 15px;
-    }
-    .b0, .b00, .b1, .b2, .b3, .b4 {
-    	color: red;
-    }
-    .b0  { margin-left: 22%;  }
-    .b00 { margin-left: 18%;  }
-    .b1  { margin-left: 20%;  }
-    .b2  { margin-left: 24%;  }
-    .b3  { margin-left: 18%;  }
-    .b4  { margin-left: 28%; }
-
-    address b { margin-left: 8%; }
-}
-
-/*   ------------------   Desktop configuration --------------------     */
-@media only screen and (orientation: landscape) 
-    and (min-width: 1350px) {
-
-	#contact {
-		padding-top : 15%; border          : solid 2px; margin-left: 20%;
-	    margin-right: 20%; background-color: cyan; font-size       : 160%;
-    }
-}
